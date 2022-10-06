@@ -35,8 +35,9 @@
   padding: 2rem 3rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   margin: 1rem;
+  gap: 1rem;
 }
 
 .card{
@@ -49,13 +50,15 @@
   position: relative;
 }
 
-.images{
+.image{
   width: 100%;
-  height: 100%;
+  height: 340px;
+  
+
 }
 .athe{
   width: 100%;
-  /* height: 100%; */
+  height: 100%;
 }
 .status{
   position: absolute;

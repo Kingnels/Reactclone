@@ -13,7 +13,33 @@ function App() {
       <div className="space">
           <Main />
           <div className="card-container">  
-            <Card />    
+            <Card 
+            img= "pic-1.png"
+            status="SOlD OUT"
+            rating="5.0"
+            reviewCount={6}
+            country="USA"
+            title="Life Lessons with Katie Zaferes"
+            price={136}
+            />    
+            <Card 
+            img= "pic-2.png"
+            status="ON SALE"
+            rating="5.0"
+            reviewCount={6}
+            country="USA"
+            title="Life Lessons with Katie Zaferes"
+            price={136}
+            />    
+            <Card 
+            img= "pic-3.png"
+            status="SOlD OUT"
+            rating="5.0"
+            reviewCount={6}
+            country="USA"
+            title="Life Lessons with Katie Zaferes"
+            price={136}
+            />    
           </div>
       </div>     
     </div>
