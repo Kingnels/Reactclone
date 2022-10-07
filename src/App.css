@@ -26,17 +26,27 @@
   color: rgb(87, 87, 96);
   /* min-width: 80vw; */
   width: 690px;
-  font-size: 22px;
+  /* font-size: 22px; */
   line-height: 1.4;
   margin-top: 0;
   font-weight:lighter;
+  align-self: center;
+  padding-left: 9rem;
+}
+
+.main-section > h1{
+  /* background-color: aqua; */
+  align-self: center;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
 }
 
 .card-container{
   /* width: 90vw; */
   padding: 2rem 3rem;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
   /* justify-content: space-around; */
   margin: 1rem;
@@ -81,6 +91,7 @@
 }
 
 .details{
+  
   padding: 0.5rem 1rem 0.5rem 1rem;
   line-height: 60%;
   font-size: 17px;
