@@ -35,19 +35,22 @@
 .card-container{
   padding: 2rem 3rem;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: row;
   /* justify-content: space-around; */
   margin: 1rem;
-  gap: 3rem;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  overflow-x:auto;
 }
 
 .card{
 
   /* border: 1px solid black; */
   box-shadow: 0px 0px 5px rgb(115, 105, 105);
-  width: 17rem;
+  min-width: 17rem;
   height:max-content;
+  flex: 0 0 auto;   
   border-radius: 14px;
   position: relative;
   overflow: hidden;

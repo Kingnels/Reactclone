@@ -9,7 +9,8 @@ import './App.css';
 function App() {
   const cards = Data.map(card =>{
 
-    return <Card 
+  return ( <Card 
+    key= {card.id}
     img= {card.Img}
     status={card.status}
     rating={card.stats.rating}
@@ -17,7 +18,9 @@ function App() {
     country={card.location}
     title={card.title}
     price={card.price}
+    openSpots={card.openSpots}
     />
+  )
   })
 
   return (
