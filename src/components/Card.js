@@ -11,7 +11,8 @@ function Card(props) {
             {/* <img src="images/pic-1.png" alt="" /> */}
             <img className='athe' src= {`images/${props.img}`} alt="" />
 
-           {props.openSpots<div className="status">{props.status}</div>} 
+           {/* {props.openSpots === 0 ? <div className="status">{props.status}</div>: <div className="status">Available</div>}  */}
+           {props.openSpots === 0 && <div className="status">{props.status}</div>} 
         </div>
         
         <div className="details">
